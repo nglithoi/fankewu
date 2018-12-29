@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vancl详情页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/details.css">
+</head>
+<script src="../lib/jquery-3.2.1.js"></script>
+<script src="../lib/jquery.min.js"></script>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../lib/jquery-ui-1.12.1/jquery-ui.js"></script>
+<script src="../js/zoo.js"></script>
+<script src="../lib/jquery-1.8.3.js"></script>
+<script src="../js/jquery.fangdajing.js"></script>
+<body>
+    <!-- 头部 -->
+    <div id="head">
+        <div class="head">
+            <div class="headTop con">
+                <div class="headright">
+                    <div class="word">
+                        您好，欢迎光临凡客诚品！
+                    </div>
+                    <span>
+                        <a href="../html/login.html">登录</a>&nbsp;|&nbsp;
+                        <a href="../html/register.html">注册</a>
+                    </span>
+                    <div class="indent">
+                        <a href="javascript:;">我的订单</a>
+                    </div>
+                    <div class="voice">
+                        <img src="../images/voice.png">
+                        <a href="javascript:;">网站公告</a>
+                    </div>
+                </div>
+                <div class="headleft">
+                    <div class="connection">
+                        <div class="wechat">
+                            <img src="../images/wechat.png">
+                            <b class="wechatcode"></b>
+                        </div>
+                        <div class="weibo">
+                            <img src="../images/weibo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- search -->
+    <div id="search">
+        <div class="search con">
+            <div class="searchTab">
+                <input type="text" placeholder="搜“熊本熊”，体验与众不同" class="searchTxt"><input type="button" value="搜索" class="searchBtn">
+                <div class="shoppingcar">
+                    <a href="javascript:;">
+                        <i class="iconfont icon-shoppingcar"></i>购物车&nbsp;(<span>0</span>)
+                    </a>
+                </div>
+                <p>热门搜索：免烫衬衫 羽绒服 外套 熊本熊 运动户外 帆布鞋 水柔棉</p>
+                <div class="buycar">
+                    你的购物车中没有任何商品
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- nav -->
+    <div id="nav">
+        <div class="nav con">
+            <ul>
+                <li class="vancllog con">
+                    <a href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="../index.html">首页</a>
+                    <span class="navline"></span>
+                </li>
+                <li>
+                    <a href="javascript:;">衬衫
+                        <img src="../images/hot.png">
+                    </a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">羽绒服</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">短款羽绒服</a></li>
+                            <li><a href="../html/list.html">长款羽绒服</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">卫衣</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">熊本熊</a></li>
+                            <li><a href="../html/list.html">开衫</a></li>
+                            <li><a href="../html/list.html">连帽</a></li>
+                            <li><a href="../html/list.html">圆领</a></li>
+                            <li><a href="../html/list.html">水柔棉</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">外套</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                            <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">针织衫</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">羊毛衫</a></li>
+                            <li><a href="../html/list.html">羊毛衫</a></li>
+                            <li><a href="../html/list.html">羊毛衫</a></li>
+                            <li><a href="../html/list.html">羊毛衫</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">裤装</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">鞋</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">帆布鞋</a></li>
+                            <li><a href="../html/list.html">帆布鞋</a></li>
+                            <li><a href="../html/list.html">帆布鞋</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">家具配饰</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">内衣袜品</a>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- detail -->
+    <div id="detailbox">
+        <div class="detailbox con">
+            <p>首页 > 鞋 > 女鞋 > 帆布鞋 > &nbsp;凡客帆布鞋 Ken 1 女款</p>
+            <h2>
+                凡客帆布鞋 Ken 1 女款 黑白条 &nbsp;&nbsp;<em>充值购买更优惠</em>
+                <span class="fr">
+                    <em>产品描述</em>
+                    <em>评论</em>
+                    <em style="border:0;">提问</em>
+                </span>
+            </h2>
+            <div class="danpinbox">
+                <div class="danpinbox_left fl">
+                    <div class="smallpic fl">
+                        <ul>
+                            <li><img src="../images/shoes.jpg"></li>
+                        </ul>
+                    </div>
+                    <div class="bigpic fr">
+                        <img src="../images/shoes.jpg">
+                        <div class="blocks"></div>
+                    </div>
+                    <div class="fd"><img src="../images/shoes.jpg" alt=""></div>
+                </div>
+                <div class="danpinbox_right fr">
+                    <span>特惠价： ￥<em>78.00</em>  充100返100,<a href="javascript:;">点击充值</a></span>
+                    <div class="setcolor">
+                        <em>颜色：</em>
+                        <span><img src="../images/shoes.jpg"> 黑白条</span>
+                        <span><img src="../images/shoes.jpg"> 黑白条</span>
+                    </div>
+                    <div class="setsize">
+                        <em>尺码：</em>
+                        <span>34</span>
+                        <span>35</span>
+                    </div>
+                    <div class="danpinnum">
+                        <em>数量：</em>
+                        <select name="" id="selectnum">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+                        <span>余量有限</span>
+                    </div>
+                    <div class="selected">
+                        <em>已选:</em>
+                        <span><em>黑白条</em>现在有货</span>
+                    </div>
+                    <div class="intocar">
+                        <input type="button" value="立即购买">
+                        <input type="button" value="加入购物车">
+                    </div>
+                    <div class="youhui">
+                        <img src="../images/youhui.png">
+                    </div>
+                </div>
+            </div>
+            <div class="presentation">
+                <h2>
+                    产品描述：
+                    <span>温馨提示：附带鞋带一双</span>
+                </h2>
+                <div class="measurement">
+                    <img src="../images/size.png">
+                    <img src="../images/jiao.png">
+                </div>
+                <div class="match">
+                    <img src="../images/match.png">
+                </div>
+                <div class="trait">
+                    <img src="../images/shoestrait.png">
+                    <img src="../images/shoestrait2.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- customer service -->
+    <div id="online">
+        <div class="online con">
+            <div class="vanclcust">
+                <ul>
+                    <li>
+                        <p class="ren">
+                            <img src="../images/ren.png">
+                        </p>
+                        <p class="onlinetime">
+                            7X9小时在线客服
+                        </p>
+                    </li>
+                    <li>
+                        <p class="seven">
+                            <img src="../images/seven.png">
+                        </p>
+                        <p>
+                            7天内退货
+                        </p>
+                        <p>
+                            购物满199元免运费
+                        </p>
+                    </li>
+                    <li style="border-right:none;">
+                        <p class="fankecode">
+                            <img src="../images/fankecode.png">
+                        </p>
+                        <p class="downfk">
+                            扫描下载
+                            <em>凡客</em>
+                            客户端
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="vanclothers">
+                <ul>
+                    <li>关于凡客</li>
+                    <li>新手指南</li>
+                    <li>配送范围及时间</li>
+                    <li>支付方式</li>
+                    <li>售后服务</li>
+                    <li style="border-right:none;">帮助</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="footer con">
+            Copyright 2007 - 2018 vancl.com All Right Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号<br>
+            凡客诚品（北京）科技有限公司<br><br>
+            <a href="javascript:;"><img src="../images/logo1.png"></a>
+            <a href="javascript:;"><img src="../images/logo2.png"></a>
+            <a href="javascript:;"><img src="../images/logo3.png"></a>
+            <a href="javascript:;"><img src="../images/logo4.png"></a>
+            <a href="javascript:;"><img src="../images/logo5.png"></a>
+        </div>
+    </div>
+</body>
+</html>

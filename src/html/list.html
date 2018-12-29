@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vancl列表页</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/list.css">
+</head>
+<script src="../lib/jquery-3.2.1.js"></script>
+<script src="../lib/jquery.goup.min.js"></script>
+<script src="../js/list.js"></script>
+<body>
+    <!-- 头部 -->
+    <div id="head">
+        <div class="head">
+            <div class="headTop con">
+                <div class="headright">
+                    <div class="word">
+                        您好，欢迎光临凡客诚品！
+                    </div>
+                    <span>
+                        <a href="../html/login.html">登录</a>&nbsp;|&nbsp;
+                        <a href="../html/register.html">注册</a>
+                    </span>
+                    <div class="indent">
+                        <a href="../html/shoppingcar.html">我的订单</a>
+                    </div>
+                    <div class="voice">
+                        <img src="../images/voice.png">
+                        <a href="javascript:;">网站公告</a>
+                    </div>
+                </div>
+                <div class="headleft">
+                    <div class="connection">
+                        <div class="wechat">
+                            <img src="../images/wechat.png">
+                            <b class="wechatcode"></b>
+                        </div>
+                        <div class="weibo">
+                            <img src="../images/weibo.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- search -->
+    <div id="search">
+        <div class="search con">
+            <div class="searchTab">
+                <input type="text" placeholder="搜“熊本熊”，体验与众不同" class="searchTxt"><input type="button" value="搜索" class="searchBtn">
+                <div class="shoppingcar">
+                    <a href="javascript:;">
+                        <i class="iconfont icon-shoppingcar"></i>购物车&nbsp;(<span>0</span>)
+                    </a>
+                </div>
+                <p>热门搜索：免烫衬衫 羽绒服 外套 熊本熊 运动户外 帆布鞋 水柔棉</p>
+                <div class="buycar">
+                    你的购物车中没有任何商品
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- side -->
+    <div id="totop" title="totop">
+        <img src="../images/top.png">
+    </div>
+
+    <!-- nav -->
+    <div id="nav">
+        <div class="nav con">
+            <ul>
+                <li class="vancllog con">
+                    <a href="javascript:;"></a>
+                </li>
+                <li>
+                    <a href="../index.html">首页</a>
+                    <span class="navline"></span>
+                </li>
+                <li>
+                    <a href="javascript:;">衬衫
+                        <img src="../images/hot.png">
+                    </a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                            <li><a href="../html/list.html">免烫</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">羽绒服</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">短款羽绒服</a></li>
+                            <li><a href="../html/list.html">长款羽绒服</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">卫衣</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">熊本熊</a></li>
+                            <li><a href="../html/list.html">开衫</a></li>
+                            <li><a href="../html/list.html">连帽</a></li>
+                            <li><a href="../html/list.html">圆领</a></li>
+                            <li><a href="../html/list.html">水柔棉</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">外套</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                            <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                            <li><a href="../html/list.html">运动户外</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">针织衫</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">羊毛衫</a></li>
+                            <li><a href="../html/list.html">羊毛衫</a></li>
+                            <li><a href="../html/list.html">羊毛衫</a></li>
+                            <li><a href="../html/list.html">羊毛衫</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">裤装</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                            <li><a href="../html/list.html">沙滩裤</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">鞋</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">帆布鞋</a></li>
+                            <li><a href="../html/list.html">帆布鞋</a></li>
+                            <li><a href="../html/list.html">帆布鞋</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">家具配饰</a>
+                    <span class="navline"></span>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                            <li><a href="../html/list.html">帽子</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">内衣袜品</a>
+                    <div class="navlist">
+                        <span></span>
+                        <ul>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                            <li><a href="../html/list.html">中筒袜</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- classification -->
+    <div id="classification">
+        <div class="classification con">
+            <h2><span class="fl classleft">当前位置：<em>所有分类</em> </span><span class="fr classright">找到和<em>帆布...</em>相关商品<em>47</em>款</span></h2>
+        </div>
+    </div>
+    <div id="classbox">
+        <div class="classbox con">
+            <ul>
+                <li class="kind">鞋包</li>
+                <li class="kinds">鞋 <em>(42)</em></li>
+            </ul>
+            <ul>
+                <li class="kind">服装</li>
+                <li class="kinds">袜品 <em>(5)</em></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- allgood -->
+    <div id="allgood">
+        <div class="allgood con">
+            <div class="alltop">
+                <h2>全部商品</h2>
+                <div class="pagebox">
+                    <span>1/1</span>
+                    <span class="prevpage"><</span>
+                    <span class="nextpage">下一页<em style="color:#B81C22;">></em></span>
+                </div>
+            </div>
+            <div class="sort">
+                <ul>
+                    <li>默认</li>
+                    <li>销量</li>
+                    <li>好评</li>
+                    <li>最新</li>
+                    <li style="background-color:#EEEEEE;">价格</li>
+                    <li>
+                        <input type="text"> - <input type="text">
+                    </li>
+                    <li></li>
+                    <li style="background-color:#EEEEEE;">合并同款</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- goods -->
+    <div id="goods">
+        <div class="goods con">
+            <ul class="goodslist">
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+                <li>
+                    <a href="javascript:;"><img src="../images/shoes.jpg" alt=""></a>
+                    <p>
+                        凡客帆布鞋 Ken 1 女款 黑白条
+                    </p>
+                    <span>
+                        售价 ￥ <del>399</del>
+                    </span>
+                </li>
+                <div class="biggood">
+                    <img src="../images/shoes.jpg">
+                    <h2>凡客帆布鞋 Ken 1 女款 黑白条</h2>
+                    <p>产品编号 ：6743889</p>
+                    <span>售价 ￥98</span>
+                    <h3>好评率</h3><em>94 %</em>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <!-- customer service -->
+    <div id="online">
+        <div class="online con">
+            <div class="vanclcust">
+                <ul>
+                    <li>
+                        <p class="ren">
+                            <img src="../images/ren.png">
+                        </p>
+                        <p class="onlinetime">
+                            7X9小时在线客服
+                        </p>
+                    </li>
+                    <li>
+                        <p class="seven">
+                            <img src="../images/seven.png">
+                        </p>
+                        <p>
+                            7天内退货
+                        </p>
+                        <p>
+                            购物满199元免运费
+                        </p>
+                    </li>
+                    <li style="border-right:none;">
+                        <p class="fankecode">
+                            <img src="../images/fankecode.png">
+                        </p>
+                        <p class="downfk">
+                            扫描下载
+                            <em>凡客</em>
+                            客户端
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="vanclothers">
+                <ul>
+                    <li>关于凡客</li>
+                    <li>新手指南</li>
+                    <li>配送范围及时间</li>
+                    <li>支付方式</li>
+                    <li>售后服务</li>
+                    <li style="border-right:none;">帮助</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="footer con">
+            Copyright 2007 - 2018 vancl.com All Right Reserved 京ICP证100557号 京公网安备11011502002400号 出版物经营许可证新出发京批字第直110138号<br>
+            凡客诚品（北京）科技有限公司<br><br>
+            <a href="javascript:;"><img src="../images/logo1.png"></a>
+            <a href="javascript:;"><img src="../images/logo2.png"></a>
+            <a href="javascript:;"><img src="../images/logo3.png"></a>
+            <a href="javascript:;"><img src="../images/logo4.png"></a>
+            <a href="javascript:;"><img src="../images/logo5.png"></a>
+        </div>
+    </div>
+</body>
+</html>

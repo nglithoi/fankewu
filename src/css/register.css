@@ -1,0 +1,92 @@
+/* top */
+*{
+    box-sizing: border-box;
+}
+.logtop{
+    border-bottom: 1px solid #7A7F89;
+}
+
+/* register */
+.register{
+    height: 578px;
+}
+.register .regleft{
+    width: 685px;
+    padding: 111px 0 0 176px;
+    float: left;
+}
+.register .regright{
+    width: 515px;
+    float: right;
+}
+.register .regright h2{
+    width: 415px;
+    height: 82px;
+    font-size: 16px;
+    color: #A2A2A2;
+    padding-top: 55px;
+    border-bottom: 2px solid #B81E20;
+}
+.register .regright h2 span{
+    display: block;
+    float: right;
+    font-size: 12px;
+}
+.register .regright h2 span a{
+    display: inline;
+    color: #B81E20;
+}
+.register .regright .registerbox{
+    height: 496px;
+    padding: 36px 0 0 6px;
+}
+.authcode,.phonenum{
+    width: 262px;
+}
+.code{
+    display: inline-block;
+    height: 45px;
+    width: 70px;
+    background: lightblue;
+}
+input{
+    height: 45px;
+    margin-bottom: 17px;
+    border: 1px solid #ccc;
+}
+.writecode,.setpw,.againpw,.registerBtn{
+    width: 415px;
+}
+.registerBtn{
+    color: #ffffff;
+    background-color: #9A9A9A;
+}
+.read{
+    display: inline-block;
+    font-size: 12px;
+    color: #A2A2A2;
+    position: relative;
+    top: -7px;
+}
+.read a{
+    display: inline;
+    color: #B81E20;
+}
+
+
+/* footer */
+#footer{
+    height: 162px;
+}
+.footer{
+    height: 162px;
+    font-size: 10px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    line-height: 50px;
+    color: #999999;
+}
+.footer a{
+    display: inline-block;
+    margin-right: 5px; 
+}

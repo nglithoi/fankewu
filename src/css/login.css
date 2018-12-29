@@ -1,0 +1,132 @@
+/* top */
+*{
+    box-sizing: border-box;
+}
+.logtop{
+    border-bottom: 1px solid #7A7F89;
+}
+.logtop a{
+    display: block;
+    height: 71px;
+    line-height: 71px;
+    float: right;
+    color: #000000;
+}
+
+/* login */
+.login{
+    height: 523px;
+}
+.login .loginleft{
+    width: 698px;
+    padding: 111px 0 0 176px;
+    float: left;
+}
+.login .loginright{
+    width: 502px;
+    float: right;
+}
+.login .loginright h2{
+    height: 93px;
+    color: #979797;
+    font-size: 20px;
+    padding-top: 53px;
+    font-weight: 900;
+}
+.login .loginright h2 span{
+    display: inline;
+    font-size: 14px;
+    color: #999;
+    margin-left: 126px;
+}
+.login .loginright h2 span a{
+    display: inline;
+    color: #B42025;
+}
+.login .loginright .loginbox{
+    width: 402px;
+    height: 410px;
+    border: 1px solid #D1D1D1;
+}
+.login .loginright .loginbox .tag{
+    width: 400px;
+    height: 36px;
+    background-color: #F5F5F5;
+    color: #656565;
+    border-bottom: 1px solid #CBCBCB;
+}
+.login .loginright .loginbox .tag li{
+    width: 200px;
+    height: 35px;
+    float: left;
+    line-height: 35px;
+    text-align: center;
+}
+.on{
+    background-color: #B42025;
+    color: #ffffff;
+    font-weight: 900;
+}
+.login .loginright .loginbox .show{
+    height: 275px;
+    padding: 28px 0  0 21px;
+    border-bottom: 1px dotted #979797;
+}
+.login .loginright .loginbox .show input{
+    width: 362px;
+    height: 47px;
+    border: 1px solid #656565;
+    margin-bottom: 20px;
+}
+.login .loginright .loginbox .show input.password{
+    margin-bottom: 0;
+}
+.tips{
+    min-width: 16px;
+    color: rgb(224, 24, 30);
+    
+}
+.forget{
+    display: block;
+    width: 98px;
+    padding: 0 21px;
+    font-size: 12px;
+    color: #B42025;
+    font-weight: 900;
+    float: right;
+}
+.login .loginright .loginbox .show input.loginBtn{
+    border: none;
+    background-color: #B42025;
+    color: #ffffff;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.login .loginright .loginbox .gulp{
+    height: 97px;
+    padding: 10px 0 0 21px;
+}
+.login .loginright .loginbox .gulp h3{
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 900;
+    line-height: 44px;
+}
+
+/* footer */
+#footer{
+    height: 162px;
+    border-top: 1px solid #3E3A39;
+}
+.footer{
+    height: 162px;
+    font-size: 10px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    line-height: 50px;
+    color: #999999;
+}
+.footer a{
+    display: inline-block;
+    margin-right: 5px; 
+}

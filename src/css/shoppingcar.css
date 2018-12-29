@@ -1,0 +1,64 @@
+/* 头部 */
+*{
+    box-sizing: border-box;
+}
+.logtop{
+    border-bottom: 1px solid #7A7F89;
+}
+.logtop img{
+    height: 55px;
+}
+.logtop a{
+    display: block;
+    height: 55px;
+    line-height: 55px;
+    float: right;
+    color: #000000;
+    font-size: 12px;
+}
+
+.trolley table{
+    border-collapse: separate;
+    font-size: 12px;
+    border: 1px solid #7A7F89;
+    width: 980px;
+    height: 150px;
+}
+.trolley table thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background: url(../images/beijing.png);
+}
+th{
+    padding: 5px;
+}
+.trolley table tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+td{
+    text-align: center;
+}
+td img{
+    width: 51px;height: 51px;border: 1px solid #7A7F89;
+}
+
+
+/* footer */
+#footer{
+    height: 162px;
+}
+.footer{
+    height: 162px;
+    font-size: 10px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    line-height: 50px;
+    color: #999999;
+}
+.footer a{
+    display: inline-block;
+    margin-right: 5px; 
+}

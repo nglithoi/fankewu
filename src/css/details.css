@@ -1,0 +1,523 @@
+/* 头部 */
+*{
+    box-sizing: border-box;
+}
+#head{
+    height: 33px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #CCCCCC;
+}
+.head{
+    height: 31px;
+    background-color: #F7F7F7;
+}
+.head .headTop{
+    font-family: "宋体";
+    font-size: 12px;
+    color: #808080;
+    height: 31px;
+    padding-top: 10px;
+    position: relative;
+}
+.head .headTop .headright{
+       width: 450px;
+       float: right;
+       position: absolute;
+       top: 8px;
+       right: 40px;
+}
+.head .headTop .headright .word{
+    display: inline;
+}
+.head .headTop .headright span{
+    display: inline;
+    padding-left: 6px;
+}
+.head .headTop .headright span a{
+    color: #808080;
+}
+.head .headTop .headright .indent{
+    display: inline;
+    padding-left: 14px;
+}
+.head .headTop .headright .indent a{
+    color: #808080;
+}
+.head .headTop .headright .voice{
+    display: inline;
+    padding-left: 16px;
+}
+.head .headTop .headright .voice a{
+    color: #808080;
+    display: inline;
+}
+.head .headTop .headleft{
+    width: 50px;
+    height: 18px;
+    float: right;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.head .headTop .headleft .connection{
+    float: right;
+}
+.head .headTop .headleft .connection .wechat{
+    display: inline;
+    cursor: pointer;
+}
+.head .headTop .headleft .connection .wechat:hover .wechatcode{
+    display: block;
+}
+.head .headTop .headleft .connection .wechat .wechatcode{
+    position: absolute;
+    width: 148px;
+    height: 169px;
+    right: 22px;
+    top: 22px;
+    border: 1px solid #e5e5e5;
+    background: url(../images/wechatcode.png) no-repeat;
+    overflow: hidden;
+    display: none;
+    cursor: pointer;
+    z-index: 10000;
+}
+.head .headTop .headleft .connection .weibo{
+    display: inline;
+    cursor: pointer;
+}
+
+/* search */
+.search{
+    height: 86px;
+    padding-top: 28px;
+}
+.search .searchTab{
+    height: 30px;
+    width: 438px;
+    float: right;
+    position: relative;
+}
+.search .searchTab p{
+    font-family: "宋体";
+    font-size: 12px;
+    position: absolute;
+    top: 40px;
+    color: #888888;
+}
+.search .searchTab .searchTxt{
+    border: 1px solid #C9CACA;
+    height: 30px;
+    width: 260px;
+    float: left;
+}
+.search .searchTab .searchBtn{
+    border: 1px solid #C9CACA;
+    border-left: none;
+    height: 30px;
+    padding: 0 9px;
+    background-color: #B71C22;
+    color: #ffffff;
+    float: left;
+}
+.search .searchTab .shoppingcar{
+    background-color: #B91C23;
+    border: 1px solid #C1383E;
+    float: right;
+}
+.search .searchTab .shoppingcar a{
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    width: 107px;
+    height: 30px;
+}
+.search .searchTab .shoppingcar a:hover{
+    background-color: #fff;
+    color: #B71C22;
+    border-bottom: none;
+}
+.search .searchTab .shoppingcar:hover .buycar{
+    display: block;
+    z-index: 999;
+}
+.search .searchTab .shoppingcar a i{
+    display: block;
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+}
+.search .searchTab .shoppingcar a i:hover{
+    color: #B71C22;
+}
+.search .searchTab .buycar{
+    width: 315px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #b81c22;
+    position: absolute;
+    right: -1px;
+    top: 30px;
+    background: #ffffff;
+    display: none;
+}
+
+/* nav */
+.nav{
+    height: 80px;
+    clear: both;
+    
+}
+.nav ul{
+    height: 80px;
+}
+.nav ul li{
+    width: 99px;
+    font-size: 16px;
+    color: #888888;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    z-index: 9999;
+}
+.nav ul li:hover .navlist{
+    display: block;
+}
+.nav ul li:nth-child(3) img{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+.nav ul li a{
+    display: block;
+    width: 99px;
+    color: #808080;
+}
+.nav ul li a:hover{
+    color: #B71C22;
+}
+.nav ul li.vancllog{
+    width: 199px;
+    height: 80px;
+}
+.nav ul li.vancllog a{
+    display: block;
+    width: 199px;
+    height: 80px;
+    background: url(../images/vancllog.png) no-repeat;
+}
+.nav ul li .navline{
+    display: block;
+    width: 1px;
+    height: 16px;
+    background-color: #888888;
+    position: absolute;
+    right: 3px;
+    top: 32px;
+    overflow: hidden;
+}
+.nav .navlist{
+    width: 99px;
+    background: #ffffff;
+    position: absolute;
+    display: none;
+    top: 55px;
+}
+.nav .navlist span{
+    display: block;
+    width: 100%;
+    height: 5px;
+    border-top: 5px solid #B81C22;
+}
+.nav .navlist ul{
+    padding: 10px 0;
+}
+.nav .navlist ul li{
+    height: 35px;
+    line-height: 35px;
+}
+.nav .navlist ul li a{
+    display: block;
+    height: 35px;
+}
+
+/* detail */
+.detailbox p{
+    height: 34px;
+    font-size: 12px;
+    line-height: 34px;
+}
+.detailbox h2{
+    font-size: 16px;
+    font-weight: 900;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #C9CACA;
+}
+.detailbox h2 em{
+    font-size: 12px;
+    color: #B71C22;
+}
+.detailbox h2 span{
+    display: inline;
+}
+.detailbox h2 span em{
+    border-right: 1px solid #C9CACA;
+    padding: 0 8px;
+    color: #DADADB;
+}
+.detailbox .danpinbox{
+    height: 477px;
+    border-bottom: 1px solid #C9CACA;
+}
+.detailbox .danpinbox .danpinbox_left{
+    width: 634px;
+    height: 476px;
+    position: relative;
+}
+.detailbox .danpinbox .danpinbox_left .smallpic{
+    width: 72px;
+    padding-top: 36px;
+}
+.detailbox .danpinbox .danpinbox_left .smallpic li{
+    width: 72px;
+    height: 72px;
+    border: 1px solid #C9CACA;
+}
+.detailbox .danpinbox .danpinbox_left .smallpic li:hover{
+    border: 2px solid #B71C22;
+}
+.detailbox .danpinbox .danpinbox_left .smallpic li img{
+    width: 100%;
+}
+.detailbox .danpinbox .danpinbox_left .bigpic{
+    width: 402px;
+    height: 402px;
+    border: 1px solid #C9CACA;
+    margin: 38px 80px 0;
+    position: relative;
+}
+.detailbox .danpinbox .danpinbox_left .bigpic img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.detailbox .danpinbox .danpinbox_left .bigpic .blocks{
+    width:201px;
+    height:201px;
+    background:#888888;
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top:0;
+    display: none;
+}
+.detailbox .danpinbox .danpinbox_left .fd{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #DADADB;
+    z-index: 9999;
+    top: 0;
+    left: 600px;
+    /* display: none; */
+}
+.detailbox .danpinbox .danpinbox_right{
+    width: 566px;
+    height: 476px;
+    padding-top: 38px;
+}
+.detailbox .danpinbox .danpinbox_right span{
+    display: block;
+    color: #B71C22;
+    font-size: 12px;
+    line-height: 2;
+    margin-bottom: 10px;
+}
+.detailbox .danpinbox .danpinbox_right span em{
+    font-size: 18px;
+    font-weight: 900;
+    padding-right: 20px;
+}
+.detailbox .danpinbox .danpinbox_right span a{
+    color: #B71C22;
+}
+.setcolor,.setsize,.danpinnum,.selected,.intocar{
+    height: 42px;
+    margin-bottom: 15px;
+}
+.setcolor em,.setsize em,.danpinnum em,.selected em{
+    font-size: 12px;
+    color: #888888;
+    float: left;
+}
+.detailbox .danpinbox .danpinbox_right .setcolor span{
+    display: inline-block;
+    width: 98px;
+    height: 42px;
+    border: 1px solid #C9CACA;
+    color: #888888;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.detailbox .danpinbox .danpinbox_right .setcolor span:hover{
+    border: 1px solid #B71C22;
+}
+.detailbox .danpinbox .danpinbox_right .setcolor span img{
+    width: 42px;
+    height: 40px;
+}
+.detailbox .danpinbox .danpinbox_right .setsize span{
+    width: 34px;
+    height: 26px;
+    border: 1px solid #C9CACA;
+    display: inline-block;
+    color: #888888;
+    margin-left: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.detailbox .danpinbox .danpinbox_right .danpinnum select{
+    width: 53px;
+    height: 20px;
+    line-height: 20px;
+}
+.detailbox .danpinbox .danpinbox_right .danpinnum span{
+    color: #B71C22;
+    font-size: 12px;
+    display: inline;
+}
+.detailbox .danpinbox .danpinbox_right .selected span{
+    color: #B71C22;
+    font-size: 12px;
+    font-weight: 900;
+    margin-left: 10px;
+    clear: both;
+    display: inline-block;
+}
+.detailbox .danpinbox .danpinbox_right .selected span em{
+    display: block;
+    color: #888888;
+    font-size: 12px;
+    font-weight: 900;
+}
+.detailbox .danpinbox .danpinbox_right .intocar input{
+    width: 168px;
+    height: 33px;
+    border: 1px solid #B71C22;
+    color: #B71C22;
+    background-color: #F7ABAF;
+}
+.detailbox .danpinbox .danpinbox_right .intocar input:hover{
+    background-color: #B71C22;
+    color: #ffffff;
+}
+.detailbox .danpinbox .danpinbox_right .youhui{
+    width: 400px;
+    height: 49px;
+}
+.detailbox .presentation h2{
+    color: #888888;
+    font-size: 12px;
+    border-bottom: 1px dashed #C9CACA;
+    height: 91px;
+}
+.detailbox .presentation h2 span{
+    color: #B71C22;
+}
+.measurement{
+    padding: 50px 0 0 250px;
+    border-bottom: 1px solid #C9CACA;
+}
+.match{
+    padding: 30px 0 0 100px;
+    border-bottom: 1px solid #C9CACA;
+}
+.trait{
+    padding: 70px 0;
+    border-bottom: 1px solid #C9CACA;
+}
+
+/* customer service */
+.online{
+    height: 284px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    padding: 34px 41px 0;
+}
+.online .vanclcust{
+    height: 138px;
+    margin-bottom: 23px;
+}
+.online .vanclcust ul li{
+    width: 371px;
+    height: 138px;
+    float: left;
+    border-right: 1px solid #E0E0E1;
+}
+.online .vanclcust ul li p{
+    text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px;
+}
+.ren,.seven{
+    padding: 15px 0 32px;
+}
+.online .vanclcust ul li p.onlinetime{
+    width: 156px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color: #ffffff;
+    margin-left: 107px;
+}
+.fankecode{
+    padding-bottom: 20px;
+}
+.downfk em{
+    color: #B71C22;
+}
+
+.online .vanclothers{
+    height: 56px;
+    padding: 17px 0 13px;
+    background-color: #F8F8F8;
+}
+.online .vanclothers ul li{
+    width: 185px;
+    height: 26px;
+    border-right: 1px solid #DADADB;
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #323232;
+    text-align: center;
+    line-height: 26px;
+}
+
+
+/* footer */
+#footer{
+    height: 162px;
+    border-top: 1px solid #3E3A39;
+}
+.footer{
+    height: 162px;
+    font-size: 10px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    line-height: 30px;
+}
+.footer a{
+    display: inline-block;
+    margin-right: 5px; 
+}

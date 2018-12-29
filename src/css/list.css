@@ -1,0 +1,540 @@
+/* 头部 */
+*{
+    box-sizing: border-box;
+}
+#head{
+    height: 33px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #CCCCCC;
+}
+.head{
+    height: 31px;
+    background-color: #F7F7F7;
+}
+.head .headTop{
+    font-family: "宋体";
+    font-size: 12px;
+    color: #808080;
+    height: 31px;
+    padding-top: 10px;
+    position: relative;
+}
+.head .headTop .headright{
+       width: 450px;
+       float: right;
+       position: absolute;
+       top: 8px;
+       right: 40px;
+}
+.head .headTop .headright .word{
+    display: inline;
+}
+.head .headTop .headright span{
+    display: inline;
+    padding-left: 6px;
+}
+.head .headTop .headright span a{
+    color: #808080;
+}
+.head .headTop .headright .indent{
+    display: inline;
+    padding-left: 14px;
+}
+.head .headTop .headright .indent a{
+    color: #808080;
+}
+.head .headTop .headright .voice{
+    display: inline;
+    padding-left: 16px;
+}
+.head .headTop .headright .voice a{
+    color: #808080;
+    display: inline;
+}
+.head .headTop .headleft{
+    width: 50px;
+    height: 18px;
+    float: right;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.head .headTop .headleft .connection{
+    float: right;
+}
+.head .headTop .headleft .connection .wechat{
+    display: inline;
+    cursor: pointer;
+}
+.head .headTop .headleft .connection .wechat:hover .wechatcode{
+    display: block;
+}
+.head .headTop .headleft .connection .wechat .wechatcode{
+    position: absolute;
+    width: 148px;
+    height: 169px;
+    right: 22px;
+    top: 22px;
+    border: 1px solid #e5e5e5;
+    background: url(../images/wechatcode.png) no-repeat;
+    overflow: hidden;
+    display: none;
+    cursor: pointer;
+    z-index: 10000;
+}
+.head .headTop .headleft .connection .weibo{
+    display: inline;
+    cursor: pointer;
+}
+
+/* search */
+.search{
+    height: 86px;
+    padding-top: 28px;
+}
+.search .searchTab{
+    height: 30px;
+    width: 438px;
+    float: right;
+    position: relative;
+}
+.search .searchTab p{
+    font-family: "宋体";
+    font-size: 12px;
+    position: absolute;
+    top: 40px;
+    color: #888888;
+}
+.search .searchTab .searchTxt{
+    border: 1px solid #C9CACA;
+    height: 30px;
+    width: 260px;
+    float: left;
+}
+.search .searchTab .searchBtn{
+    border: 1px solid #C9CACA;
+    border-left: none;
+    height: 30px;
+    padding: 0 9px;
+    background-color: #B71C22;
+    color: #ffffff;
+    float: left;
+}
+.search .searchTab .shoppingcar{
+    background-color: #B91C23;
+    border: 1px solid #C1383E;
+    float: right;
+}
+.search .searchTab .shoppingcar a{
+    display: block;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    width: 107px;
+    height: 30px;
+}
+.search .searchTab .shoppingcar a:hover{
+    background-color: #fff;
+    color: #B71C22;
+    border-bottom: none;
+}
+.search .searchTab .shoppingcar:hover .buycar{
+    display: block;
+    z-index: 999;
+}
+.search .searchTab .shoppingcar a i{
+    display: block;
+    width: 20px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+}
+.search .searchTab .shoppingcar a i:hover{
+    color: #B71C22;
+}
+.search .searchTab .buycar{
+    width: 315px;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #b81c22;
+    position: absolute;
+    right: -1px;
+    top: 30px;
+    background: #ffffff;
+    display: none;
+}
+
+/* side */
+#totop{
+    width: 34px;
+    height: 22px;
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* nav */
+.nav{
+    height: 80px;
+    clear: both;
+    
+}
+.nav ul{
+    height: 80px;
+}
+.nav ul li{
+    width: 99px;
+    font-size: 16px;
+    color: #888888;
+    float: left;
+    text-align: center;
+    line-height: 80px;
+    position: relative;
+    z-index: 9999;
+}
+.nav ul li:hover .navlist{
+    display: block;
+}
+.nav ul li:nth-child(3) img{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+.nav ul li a{
+    display: block;
+    width: 99px;
+    color: #808080;
+}
+.nav ul li a:hover{
+    color: #B71C22;
+}
+.nav ul li.vancllog{
+    width: 199px;
+    height: 80px;
+}
+.nav ul li.vancllog a{
+    display: block;
+    width: 199px;
+    height: 80px;
+    background: url(../images/vancllog.png) no-repeat;
+}
+.nav ul li .navline{
+    display: block;
+    width: 1px;
+    height: 16px;
+    background-color: #888888;
+    position: absolute;
+    right: 3px;
+    top: 32px;
+    overflow: hidden;
+}
+.nav .navlist{
+    width: 99px;
+    background: #ffffff;
+    position: absolute;
+    display: none;
+    top: 55px;
+}
+.nav .navlist span{
+    display: block;
+    width: 100%;
+    height: 5px;
+    border-top: 5px solid #B81C22;
+}
+.nav .navlist ul{
+    padding: 10px 0;
+}
+.nav .navlist ul li{
+    height: 35px;
+    line-height: 35px;
+}
+.nav .navlist ul li a{
+    display: block;
+    height: 35px;
+}
+
+/* classification */
+.classification{
+    height: 40px;
+}
+.classification h2{
+    line-height: 40px;
+    font-size: 12px;
+}
+.classleft,.classright{
+   color: #CCCCCC; 
+}
+.classleft em{
+    color: #000;
+}
+.classright em{
+    color: #B71C22;
+}
+.classbox{
+    height: 72px;
+    border: 1px solid #C7CACD;
+    margin-bottom: 15px;
+}
+.classbox ul{
+    height: 35px;
+    border-bottom: 1px dashed #C7CACD;
+}
+.classbox ul li{
+    height: 35px;
+    float: left;
+    font-size: 12px;
+    text-align: center;
+    line-height: 35px;
+}
+.classbox ul li.kind{
+    width: 5%;
+    border-right: 1px solid #C7CACD;
+}
+.classbox ul li.kinds{
+    padding-left: 20px;
+}
+.classbox ul li.kinds em{
+    color: #808080;
+}
+
+/* allgood */
+.allgood{
+    margin-bottom: 15px;
+}
+.allgood .alltop{
+    height: 32px;
+    border-bottom: 2px solid #B81C22;
+}
+.allgood .alltop h2{
+    width: 88px;
+    height: 30px;
+    background-color: #B81C22;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+    cursor: pointer;
+}
+.allgood .alltop .pagebox{
+    float: right;
+    font-size: 12px;
+}
+.allgood .alltop .pagebox span{
+    display: inline;
+    margin-left: 14px;
+    padding: 1px 3px;
+}
+.allgood .alltop .pagebox span.prevpage{
+    background: url(../images/btnbg.png);
+    border: 1px solid #C9CACA;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.allgood .alltop .pagebox span.nextpage{
+    background: url(../images/btnbg.png);
+    border: 1px solid #C9CACA;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.allgood .sort{
+    height: 35px;
+    border-bottom: 1px solid #C7CACD;
+}
+.allgood .sort ul li{
+    float: left;
+    width: 75px;
+    height: 35px;
+    border-left: 1px solid #C7CACD;
+    padding: 0 30px 0 20px;
+    font-size: 12px;
+    line-height: 35px;
+    color: #666666;
+    cursor: pointer;
+}
+.allgood .sort ul li:nth-child(6){
+    border: none;
+    width: 133px;
+    padding: 0 0 0 21px;
+}
+.allgood .sort ul li:nth-child(6) input{
+    width: 40px;
+    height: 19px;
+    border: 1px solid #888888;
+}
+.allgood .sort ul li:nth-child(7){
+    width: 590px;
+}
+.allgood .sort ul li:last-child{
+    width: 100px;
+}
+
+/* goods */
+.goods{
+    height: 646px;
+    margin-bottom: 20px;
+}
+.goods .goodslist{
+    position: relative;
+}
+.goods .goodslist li{
+    width: 230px;
+    float: left;
+    margin: 0 10px 13px 0;
+}
+.goods .goodslist li a{
+    display: block;
+    width: 230px;
+    height: 230px;
+    margin-bottom: 12px;
+}
+.goods .goodslist li a img{
+    width: 230px;
+    width: 230px;
+    border: 1px solid #C7CACD;
+}
+.goods .goodslist li a img:hover{
+    border: 1px solid #B71C22;
+}
+.goods .goodslist li p{
+    font-size: 12px;
+    text-align: center;
+    line-height: 34px;
+    color: #888888;
+}
+.goods .goodslist li span{
+    color: #B71C22;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    height: 34px;
+    line-height: 34px;
+    font-weight: 900;
+}
+.goods .goodslist .biggood{
+    width: 280px;
+    height: 420px;
+    background: #F7F7F7;
+    position: absolute;
+    left: 250px;
+    top: -60px;
+    z-index: 10086;
+    border: 1px solid #C9CACA;
+    padding: 10px;
+    display: none;
+}
+.goods .goodslist .biggood img{
+    width: 260px;
+    height: 260px;
+}
+.goods .goodslist .biggood h2{
+    line-height: 36px;
+    font-size: 16px;
+}
+.goods .goodslist .biggood p{
+    color: #C9CACA;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.goods .goodslist .biggood span{
+    display: block;
+    font-size: 14px;
+    color: #B71C22;
+    border-right: 1px dashed #C7CACD;
+    padding: 0 50px 0 20px;
+    float: left;
+}
+.goods .goodslist .biggood h3{
+    float: right;
+    font-size: 12px;
+    color: #B71C22;
+    text-align: center;
+    padding: 0 40px;
+}
+.goods .goodslist .biggood em{
+    font-size: 24px;
+    color: #B71C22;
+    float: right;
+    padding: 0 20px;
+}
+
+/* customer service */
+.online{
+    height: 284px;
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+    padding: 34px 41px 0;
+}
+.online .vanclcust{
+    height: 138px;
+    margin-bottom: 23px;
+}
+.online .vanclcust ul li{
+    width: 371px;
+    height: 138px;
+    float: left;
+    border-right: 1px solid #E0E0E1;
+}
+.online .vanclcust ul li p{
+    text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px;
+}
+.ren,.seven{
+    padding: 15px 0 32px;
+}
+.online .vanclcust ul li p.onlinetime{
+    width: 156px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color: #ffffff;
+    margin-left: 107px;
+}
+.fankecode{
+    padding-bottom: 20px;
+}
+.downfk em{
+    color: #B71C22;
+}
+
+.online .vanclothers{
+    height: 56px;
+    padding: 17px 0 13px;
+    background-color: #F8F8F8;
+}
+.online .vanclothers ul li{
+    width: 185px;
+    height: 26px;
+    border-right: 1px solid #DADADB;
+    float: left;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+    color: #323232;
+    text-align: center;
+    line-height: 26px;
+}
+
+
+/* footer */
+#footer{
+    height: 162px;
+    border-top: 1px solid #3E3A39;
+}
+.footer{
+    height: 162px;
+    font-size: 10px;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    line-height: 30px;
+}
+.footer a{
+    display: inline-block;
+    margin-right: 5px; 
+}
